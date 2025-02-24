@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-Background: #0a192f; /*(Deep Navy Blue)*/
+  --color-PrimaryAccent: #38bdf8; /*(Sky Blue)*/
+  --color-SecondaryAccent: #06b6d4; /*(Teal)*/
+  --color-LightHighlight: #f0f9ff; /*(Soft Cyan)*/
+
+  /* font family's */
+  --font-Headings: "Orbitron", sans-serif; /*(Futuristic, tech feel)*/
+  --font-BodyText: "Lora", serif; /*(Elegant, professional)*/
+  --font-ExtraText: "Poppins", sans-serif; /*(For buttons, small UI elements)*/
+}
+
+/* hide the default cursor */
+* {
+  cursor: none;
+}
