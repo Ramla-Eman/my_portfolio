@@ -35,7 +35,7 @@ const CustomCursor = () => {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-10 h-10 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full pointer-events-none mix-blend-difference"
+      className="fixed top-0 left-0 w-10 z-50 h-10 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full pointer-events-none "
       style={{ backgroundColor: cursorColor }}
       animate={{
         x: position.x - 12,
